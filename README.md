@@ -1,9 +1,9 @@
 # csv-to-parquet
 A fast and parallel CSV-to-Parquet converter written in Rust. Supports multi-threaded processing, progress tracking, and clean output directory handling.
 
-=========================================
 
-📌 Features
+
+## 📌 Features
 
 ✅ Converts .txt files containing CSV data into Apache Parquet format.
 
@@ -17,18 +17,18 @@ A fast and parallel CSV-to-Parquet converter written in Rust. Supports multi-thr
 
 📂 Supports CLI arguments for input/output paths and number of threads.
 
-=========================================
 
-🧰 Requirements
+
+## 🧰 Requirements
 
 Make sure you have installed:
 - Rust (latest stable version)
 - Cargo (comes with Rust)
 Install Rust via rustup, if needed.
 
-=========================================
 
-🧱 Installation
+
+## 🧱 Installation
 1. Clone the repository:
    
 #bash
@@ -43,9 +43,9 @@ Install Rust via rustup, if needed.
 #bash
 - cargo run -- -i <input_dir> -o <output_dir> [-t <threads>]
 
-=========================================
 
-⚙️ Usage
+
+## ⚙️ Usage
 
 Example:
 
@@ -63,9 +63,9 @@ Flag	Description:
 
 -t"	 "--threads	Number of threads to use (optional)
 
-=========================================
 
-📁 Project Structure
+
+## 📁 Project Structure
 
 src/
 
@@ -81,9 +81,9 @@ src/
 
 └── utils.rs              # Utility functions (e.g., thread pool setup)
 
-=========================================
 
-🧪 Verify Output (Python)
+
+## 🧪 Verify Output (Python)
 
 You can verify the generated Parquet files using Python:
 
@@ -101,9 +101,9 @@ Run verification:
 
 1 python open_parquet.py ../Tickers/Si/
 
-=========================================
 
-💬 Support
+
+## 💬 Support
 
 If you have any questions or suggestions, feel free to open an issue on GitHub.
 
