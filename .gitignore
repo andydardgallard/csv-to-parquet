@@ -5,9 +5,11 @@ Cargo.lock
 # VS Code
 .vscode/
 
+# Python venv & VM
+python/VM/
+
 # Python
 __pycache__/
-python/VM/
 *.py[cod]
 *.so
 *.egg-info
